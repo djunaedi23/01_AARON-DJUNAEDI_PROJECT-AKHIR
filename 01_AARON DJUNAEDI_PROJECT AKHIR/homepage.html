@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Djunaedi Photography</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Djunaedi<span>Photography</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="register.php">Register?</a></li>
+      </ul>
+    </nav>
+
+    <section class="jumbotron">
+  <div class="jumbo-overlay"></div>
+  <div class="jumbo-content">
+    <h1>Capturing Moments, Creating Stories</h1>
+    <p>Your world through the lens of Djunaedi Photography.</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </div>
+</section>
+
+  </header>
+<h1 style="text-align: center; margin-top: 100px;">Welcome to Djunaedi Photography</h1>
+  
+  <section class="site-description">
+  <p>
+    Djunaedi Photography is a creative space dedicated to capturing meaningful moments through the art of visual storytelling. 
+    From expressive portraits and breathtaking nature shots to dynamic street scenes and unforgettable event highlights, 
+    every photograph is crafted with attention, emotion, and purpose. This website showcases a growing portfolio that reflects 
+    passion, creativity, and a commitment to preserving memories in their most authentic form. Explore the gallery, discover 
+    unique perspectives, and experience the world through the lens of Djunaedi Photography.
+  </p>
+</section>
+
+
+
+  <section id="portfolio" class="portfolio">
+    <h2>My Work</h2>
+    <div class="gallery">
+      <img src="images/portrait_logo.jpg" alt="Portrait Photography">
+      <img src="images/nature_logo.jpg" alt="Nature Photography">
+      <img src="images/event_logo.jpg" alt="Event Photography">
+      <img src="images/street_logo.jpg" alt="Street Photography">
+      <img src="images/wedding_logo.jpg" alt="Wedding Photography">
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:2020070828@student.pppkpetra.sch.id">2020070828@student.pppkpetra.sch.id</a></p>
+    <p>Follow me on 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a>
+    </p>
+    <p>&copy; 2025 Djunaedi Photography</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

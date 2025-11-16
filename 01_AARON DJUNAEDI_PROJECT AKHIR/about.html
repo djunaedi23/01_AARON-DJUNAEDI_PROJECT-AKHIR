@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Djunaedi Photography</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <style>
+ 
+    .about-hero {
+      
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      position: relative;
+    }
+
+    .about-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+
+    .about-hero .content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+    }
+
+    .about-hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .about-section {
+      padding: 100px 50px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+      line-height: 1.8;
+      font-size: 1.15em;
+    }
+
+    .about-section h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .about-section p {
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .about-values {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      text-align: left;
+    }
+
+    .value-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+      transition: 0.3s ease;
+    }
+
+    .value-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .value-card h3 {
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="logo">Djunaedi<span>Photography</span></div>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="register.php">Register?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="about-hero">
+    <div class="content">
+      <h1>About Djunaedi Photography</h1>
+      <p>Capturing stories, emotions, and the beauty hidden in every moment.</p>
+    </div>
+  </section>
+
+
+  <section class="about-section">
+    <h2>Our Story</h2>
+    <p>
+      Djunaedi Photography was born from a passion for transforming everyday moments into meaningful visual stories. 
+      With a creative approach and an eye for detail, we focus on capturing genuine expressions, natural beauty, and 
+      powerful emotions in every frame.
+    </p>
+
+    <p>
+      What started as a personal interest quickly grew into a dedicated journey of exploring portrait, event, nature, 
+      and street photography. Every project is approached with care, creativity, and the intention to preserve memories 
+      in their most authentic form.
+    </p>
+
+    <p>
+      Whether it’s a quiet moment shared between loved ones, the energy of a busy street, or the elegance of natural light, 
+      we believe that every scene holds a story worth telling.
+    </p>
+
+    <div class="about-values">
+      <div class="value-card">
+        <h3>✨ Creativity</h3>
+        <p>We bring a unique perspective to every shoot, blending artistic style with real emotion.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>📸 Passion</h3>
+        <p>Photography is more than a skill—it’s a commitment to capturing moments that matter.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>🤝 Connection</h3>
+        <p>We focus on building trust and comfort to bring out the most genuine expressions.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:2020070828@student.pppkpetra.sch.id">2020070828@student.pppkpetra.sch.id</a></p>
+    <p>Follow me on 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a>
+    </p>
+    <p>&copy; 2025 Djunaedi Photography</p>
+  </footer>
+
+</body>
+</html>
